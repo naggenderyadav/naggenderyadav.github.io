@@ -47,20 +47,20 @@
 
     .links a {
       display: inline-block;
-      margin: 0 15px;
+      margin: 0 10px 10px 10px;
       padding: 12px 25px;
       font-size: 16px;
       font-weight: bold;
       text-decoration: none;
       color: #fff;
-      background-color: #0073b1; /* Default LinkedIn color */
       border-radius: 5px;
-      transition: background-color 0.3s ease;
+      transition: opacity 0.3s ease;
     }
 
-    .links a.fiverr {
-      background-color: #1dbf73; /* Fiverr green */
-    }
+    .linkedin { background-color: #0073b1; }
+    .fiverr { background-color: #1dbf73; }
+    .upwork { background-color: #6fda44; }
+    .freelancer { background-color: #0a74da; }
 
     .links a:hover {
       opacity: 0.8;
@@ -76,8 +76,10 @@
     <img src="portfolio.jpg" alt="Portfolio" class="portfolio-img">
 
     <div class="links">
-      <a href="https://www.linkedin.com/in/naggenderyadav" target="_blank">LinkedIn</a>
-      <a href="https://www.fiverr.com/" target="_blank" class="fiverr">Fiverr</a>
+      <a href="https://www.linkedin.com/in/naggenderyadav" target="_blank" class="linkedin">LinkedIn</a>
+      <a href="https://www.fiverr.com/naggenderyadav" target="_blank" class="fiverr">Fiverr</a>
+      <a href="https://www.upwork.com/freelancers/~naggenderyadav" target="_blank" class="upwork">Upwork</a>
+      <a href="https://www.freelancer.com/u/naggenderyadav" target="_blank" class="freelancer">Freelancer</a>
     </div>
   </div>
 </body>
